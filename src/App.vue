@@ -4,12 +4,14 @@ import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
+  
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+    <img alt="Card" class="logo" src="./assets/payment-card.png" width="780" height="450" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <HelloWorld msg="Checkout form !" />
     </div>
+  
   </header>
 
   <main>
@@ -25,6 +27,9 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  position: relative;
+  margin-left:-120px;
+  margin-top: -120px;
 }
 
 @media (min-width: 1024px) {
@@ -35,7 +40,9 @@ header {
   }
 
   .logo {
-    margin: 0 2rem 0 0;
+    position: relative;
+    margin-left:-180px;
+    margin-top: -10px;
   }
 
   header .wrapper {
